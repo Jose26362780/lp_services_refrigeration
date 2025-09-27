@@ -6,6 +6,10 @@ const Hero = () => {
     document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToServices = () => {
+    document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-hero overflow-hidden">
       {/* Background Image */}
@@ -35,16 +39,25 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
-              onClick={scrollToContact}
+              onClick={scrollToServices}
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-hero"
             >
-              Solicitar Orçamento Gratuito
+
+              <a
+                  href="https://api.whatsapp.com/send?phone=+554288670758&text=Ola Engenherio José Martinez! Gostaria de Contratar seus serviços"
+                  target="_blank">
+
+                    Solicitar Orçamento Gratuito
+
+                  </a>
+
             </Button>
             <Button 
               variant="outline"
               size="lg"
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              onClick={scrollToContact}
             >
               Conheça Nossos Serviços
             </Button>

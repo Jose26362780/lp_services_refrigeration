@@ -23,7 +23,7 @@ const Footer = () => {
                 className="border-background/20 text-background hover:bg-background hover:text-foreground"
               >
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/554288670758"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full h-full"
@@ -54,15 +54,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-background/60" />
-                <span className="text-background/80">(11) 99999-9999</span>
+                <span className="text-background/80">(42) 8867-0758</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-background/60" />
-                <span className="text-background/80">contato@jmartinez.com.br</span>
+                <span className="text-background/80"> josemmartinez71@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-background/60" />
-                <span className="text-background/80">São Paulo - SP</span>
+                <span className="text-background/80">Ponta Grossa - PR</span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-background/60">
-            © 2024 Engenharia e Serviços – Eng. José Martinez. 
+            © 2025 Engenharia e Serviços – Eng. José Martinez. 
             Todos os direitos reservados.
           </p>
         </div>

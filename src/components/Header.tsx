@@ -22,14 +22,19 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-sm">
               <Phone className="h-4 w-4 text-primary" />
-              <span>(11) 99999-9999</span>
+              <span>(42) 8867-0758</span>
             </div>
             <div className="flex items-center space-x-2 text-sm">
               <Mail className="h-4 w-4 text-primary" />
-              <span>contato@jmartinez.com.br</span>
+              <span>josemmartinez71@gmail.com</span>
             </div>
-            <Button onClick={scrollToContact} className="bg-gradient-hero">
+            <Button className="bg-gradient-hero">
+              <a
+                  href="https://api.whatsapp.com/send?phone=+5511910976814&text=Ola Engenherio José Martinez! Gostaria de Contratar seus serviços"
+                  target="_blank">
+
               Solicitar Orçamento
+                  </a>
             </Button>
           </div>
           

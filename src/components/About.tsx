@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Sobre o Eng. José Martinez
+              Sobre o Engenheiro José Martinez
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Especialista técnico com vasta experiência em refrigeração, 
@@ -19,7 +19,7 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-foreground leading-relaxed">
                 Com anos de experiência no setor de refrigeração e engenharia, 
-                o Eng. José Martinez é reconhecido pela excelência técnica e 
+                o Engenheiro José Martinez é reconhecido pela excelência técnica e 
                 comprometimento com soluções eficientes e duradouras.
               </p>
               
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-2 text-primary">
                   <Clock className="h-5 w-5" />
-                  <span className="font-semibold">Atendimento 24h</span>
+                  <span className="font-semibold">Atendimento sob agendamento</span>
                 </div>
               </div>
             </div>

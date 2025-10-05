@@ -41,7 +41,15 @@ const Hero = () => {
             <Button 
               onClick={scrollToServices}
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-hero"
+              className="bg-accent 
+        text-accent-foreground 
+        shadow-hero 
+        
+        /* NOVO ESTILO HOVER */
+        hover:bg-white         /* Fundo fica branco no hover */
+        hover:text-primary     /* O texto fica na cor principal (azul escuro/preto) no hover */
+        hover:border-2         /* Opcional: Adiciona uma borda sutil no hover */
+        hover:border-primary"
             >
 
               <a
@@ -56,7 +64,9 @@ const Hero = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="border-primary-foreground 
+                   bg-primary-foreground 
+                 text-primary"
               onClick={scrollToContact}
             >
               Conheça Nossos Serviços

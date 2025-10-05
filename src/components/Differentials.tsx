@@ -59,12 +59,11 @@ const Differentials = () => {
         <div className="mt-12 text-center">
           <div className="bg-primary/10 border border-primary/20 rounded-lg p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-primary mb-4">
-              Atendimento 24 Horas para Emergências
+              Mais de 20 Anos de Excelência em Refrigeração
             </h3>
             <p className="text-foreground text-lg">
-              Sabemos que problemas em equipamentos de refrigeração podem acontecer 
-              a qualquer momento. Por isso, oferecemos atendimento de emergência 
-              24 horas para garantir que seu negócio não pare.
+              Com duas décadas de dedicação e expertise no mercado, oferecemos soluções técnicas de refrigeração com a confiança e a qualidade que só a experiência pode garantir. 
+              Seu equipamento em mãos de especialistas.
             </p>
           </div>
         </div>

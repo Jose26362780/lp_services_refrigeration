@@ -31,6 +31,19 @@ Este projeto utiliza uma stack de desenvolvimento Front-end moderna e performát
 ---
 
 
+## 📧 Envio de Dados (Backend as a Service - BaaS)
+
+O formulário de contato foi implementado com uma arquitetura **100% Front-end** para garantir a performance máxima da Landing Page. Utilizamos o Formspree como um **Backend as a Service (BaaS)** para processar as submissões, eliminando a necessidade de um servidor próprio.
+
+| Detalhe | Configuração |
+| :--- | :--- |
+| **Serviço de Envio** | Formspree |
+| **Método** | Submissão assíncrona (`fetch` POST) |
+| **Endpoint** | Definido na constante `FORMSPREE_ENDPOINT` em `src/components/Contact.tsx` |
+
+
+
+
 ## 📂 Estrutura do Projeto
 
 ```bash

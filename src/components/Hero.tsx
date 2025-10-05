@@ -41,15 +41,7 @@ const Hero = () => {
             <Button 
               onClick={scrollToServices}
               size="lg"
-              className="bg-accent 
-        text-accent-foreground 
-        shadow-hero 
-        
-        /* NOVO ESTILO HOVER */
-        hover:bg-white         /* Fundo fica branco no hover */
-        hover:text-primary     /* O texto fica na cor principal (azul escuro/preto) no hover */
-        hover:border-2         /* Opcional: Adiciona uma borda sutil no hover */
-        hover:border-primary"
+              className="bg-accent  text-accent-foreground shadow-hero hover:bg-white  hover:text-primary hover:border-2 hover:border-primary"
             >
 
               <a

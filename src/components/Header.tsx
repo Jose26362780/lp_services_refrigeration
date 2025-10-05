@@ -28,7 +28,7 @@ const Header = () => {
               <Mail className="h-4 w-4 text-primary" />
               <span>josemmartinez71@gmail.com</span>
             </div>
-            <Button className="bg-gradient-hero
+            <Button className="bg-gradient-hero text-white shadow-md hover:shadow-lg hover:scale-[1.02] transition-all
             ">
                 <a
                   href="https://api.whatsapp.com/send?phone=+554288670758&text=Ola Engenherio José Martinez! Gostaria de Contratar seus serviços"

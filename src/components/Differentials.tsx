@@ -73,4 +73,4 @@ const Differentials = () => {
   );
 };
 
-export default Differentials;
+export { Differentials };

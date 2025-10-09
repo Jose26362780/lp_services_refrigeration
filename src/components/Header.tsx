@@ -54,7 +54,13 @@ const Header = () => {
             className="md:hidden bg-gradient-hero text-white"
             size="sm"
           >
-            Orçamento
+            <a
+                href="https://api.whatsapp.com/send?phone=+554288670758&text=Olá Engenheiro José Martinez! Gostaria de contratar seus serviços."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Orçamento
+              </a>
           </Button>
         </div>
       </div>

@@ -38,28 +38,24 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              onClick={scrollToServices}
+            <Button
+              asChild
               size="lg"
-              className="bg-accent  text-accent-foreground shadow-hero hover:bg-white  hover:text-primary hover:border-2 hover:border-primary"
+              className="bg-accent text-accent-foreground shadow-hero transition-all duration-300 ease-in-out hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:scale-105 hover:shadow-lg"
             >
-
               <a
-                  href="https://api.whatsapp.com/send?phone=+554288670758&text=Ola Engenherio José Martinez! Gostaria de Contratar seus serviços"
-                  target="_blank">
-
-                    Solicitar Orçamento Gratuito
-
-                  </a>
-
+                href="https://api.whatsapp.com/send?phone=+554288670758&text=Ola Engenherio José Martinez! Gostaria de Contratar seus serviços"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar Orçamento Gratuito
+              </a>
             </Button>
             <Button 
               variant="outline"
               size="lg"
-              className="border-primary-foreground 
-                   bg-primary-foreground 
-                 text-primary"
-              onClick={scrollToContact}
+              className="border-primary-foreground bg-primary-foreground text-primary"
+              onClick={scrollToServices}
             >
               Conheça Nossos Serviços
             </Button>
